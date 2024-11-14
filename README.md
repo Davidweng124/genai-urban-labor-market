@@ -1,6 +1,6 @@
-# Impact of GenAI on Urban Labor Market
+# Generative artificial intelligence causes displacement but reduces regional opportunity disparities
 
-Welcome to this repository, which contains the data and code related to the paper "Impact of GenAI on Urban Labor Market".
+Welcome to this repository, which contains the data and code related to the paper "Generative artificial intelligence causes displacement but reduces regional opportunity disparities".
 
 ## File Description
 
