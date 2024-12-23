@@ -45,7 +45,25 @@ Welcome to the repository for the paper **"Generative Artificial Intelligence Ca
 *'rate_expo'*: Types of jobs by the levels of exposure to GenAI, where 1 indicates the first quartile of exposure and 4 indicates the fourth quartile of exposure.  
 *'num_post'*: Number of job postings by city, month and job exposure level.  
 *'tier_city'*: Tier of city as defined by the Yicai city randing. There are originally six tiers of cities. Since upper tier cities are much fewer, we merged the first-tier and emerging-first-tier cities into type-1 cities (19 in total), and the second- and third-tier cities into type-2 cities (100 in total), keeping the fourth- and fifth-tier cities as type-3 and type-4 cities (90 and 128 respectively).  
-*'industry'*: Weighted seasonal output of the industries belonging to the respective job/industry exposure level in the city. Industrial outputs are from the Preliminary Estimates of Gross Domestic Product released seasonally by the National Bureau of Statistics of China.  
+*'industry'*: Weighted seasonal output of the industries belonging to the respective job/industry exposure level in the city. Industrial outputs are from the Preliminary Estimates of Gross Domestic Product released seasonally by the National Bureau of Statistics of China.
+
+job_industry.dta: This dataset serves as the foundational data for our research, providing comprehensive information on job vacancies across multiple industries. It is publicly available for researchers and interested readers. The contents of the columns are as follows.
+'time': Year and month of the data.
+'year': Year of the data.
+'month': Month of the data.
+‘position_level1’: Name of occupational group.
+'num_post': Number of job postings by city, month and job exposure level.
+‘exposure_dwa_beta’: GenAI exposure index of occupation.
+‘lm_aioe_felten2023’ : LLM exposure index developed by Felten et al. using American job content information.
+‘industry’: Name of the industry.
+'industryvalue': Weighted seasonal output of the industries belonging to the respective job/industry exposure level in the city. Industrial outputs are from the Preliminary Estimates of Gross Domestic Product released seasonally by the National Bureau of Statistics of China.
+
+job_industry2018-2024.dta & job_industry2022-2024.dta: These datasets contain job vacancy samples spanning from 2018 to 2024 and 2022 to 2024, respectively, offering granular insights into regional job trends over time.The contents of the columns are as follows.
+‘ave_education’ : Average education at occupation level.
+‘ave_experience’ :Average work experience at occupation level.
+‘ave_wage’ :Average wage at occupation level.
+In addition, variables with the same name have the same meaning as above.
+
 
 ## System Requirements
 
