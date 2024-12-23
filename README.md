@@ -27,6 +27,7 @@ Welcome to the repository for the paper **"Generative Artificial Intelligence Ca
 - **`table_code.do`**: Stata script used for replicating the analysis and generating all tables in the article, utilizing the provided datasets.
 - **`plot.ipynb`**: Python Jupyter Notebook for generating the core figures in the paper.
 - **`figure2_analysis.R`**: R code for replicating the analysis that generate Figure 2 in the paper.
+- **`figure3_analysis.R`**: R code for replicating the analysis that generate Figure 3 in the paper.
 - **`job_industry.dta`**: Publicly available foundational dataset containing information on job vacancies across various industries.
 - **`job_industry2018-2024.dta`**: Job vacancy sample data from 2018 to 2024.
 - **`job_industry2022-2024.dta`**: Job vacancy sample data from 2022 to 2024.
